@@ -1,0 +1,45 @@
+[
+    {
+      "_id": "63347187ab246495d39d242e",
+      "picture": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Lifting Dumbbell",
+      "about": "You have to keep up the intensity. Do not start the next workout before finishing this set's time",
+      "time": 20
+    },
+    {
+      "_id": "6334718774853c86422ae9bf",
+      "picture": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "An on Treadmill",
+      "about": "You have to keep up the intensity. Do not start the next workout before finishing this set's time",
+      "time": 30
+    },
+    {
+      "_id": "6334718745fb52895ba6f4ec",
+      "picture": "https://images.pexels.com/photos/116077/pexels-photo-116077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Carrying Adjustable Barbells",
+      "about": "You have to keep up the intensity. Do not start the next workout before finishing this set's time",
+      "time": 25
+    },
+    {
+      "_id": "63347187b4efb4dbb502dc88",
+      "picture": "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Holding Brown Rope",
+      "about": "You have to keep up the intensity. Do not start the next workout before finishing this set's time",
+      "time": 45
+    },
+    {
+      "_id": "6334718766e3aaa010aa7ea1",
+      "picture": "https://images.pexels.com/photos/3253498/pexels-photo-3253498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": " Tank Top Exercise",
+      "about": "You have to keep up the intensity. Do not start the next workout before finishing this set's time",
+      "time": 15
+    },
+    {
+      "_id": "63347187c122c17077da1a6e",
+      "picture": "https://images.unsplash.com/photo-1597452485677-d661670d9640?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80",
+      "name": "Doing a cable fly",
+      "about": "You have to keep up the intensity. Do not start the next workout before finishing this set's time",
+      "time": 40
+    }
+  ]
+  
