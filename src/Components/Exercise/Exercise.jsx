@@ -68,7 +68,7 @@ const Exercise = ({ time}) => {
         <button
           className="btn lg:btn-wide btn-secondary bg-[#5d5fef]"
         >
-          Activity Compleate
+          Activity Completed
         </button>
       </div>
     </div>
