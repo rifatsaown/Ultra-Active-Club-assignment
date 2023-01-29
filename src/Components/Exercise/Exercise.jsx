@@ -1,43 +1,58 @@
 import React from "react";
 
-const Exercise = () => {
+const Exercise = ({ time, reset}) => {
+
+  const [totalBreakTime, setTotalBreakTime] = React.useState(0);
+  const break1 = () => {
+    setTotalBreakTime(10);
+  };
+  const break2 = () => {
+    setTotalBreakTime(20);
+  };
+  const break3 = () => {
+    setTotalBreakTime(30);
+  };
+  const break4 = () => {
+    setTotalBreakTime(40);
+  };
+
+
+  
   return (
     <div>
       <div className="flex justify-around bg-[#f2f4fa] mt-5 py-3 px-2 text-center rounded-xl">
-        <button className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
+        <button onClick={break1} className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
           10s
         </button>
-        <button className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
+        <button onClick={break2} className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
           20s
         </button>
-        <button className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
+        <button onClick={break3} className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
           30s
         </button>
-        <button className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
+        <button onClick={break4} className="bg-white hover:bg-[#5d5fef] font-semibold hover:text-white rounded-full p-3">
           40s
         </button>
       </div>
       <div className="mt-7">
         <h1 className="text-xl font-bold ">Exercise Details</h1>
-        <div className="flex items-center justify-between bg-[#f2f4fa] mt-3 rounded-xl px-3 py-1">
+        <div className="flex items-center justify-between bg-[#f2f4fa] mt-3 rounded-xl px-3 py-3">
           <p className="text-lg font-bold">Exercise Time </p>
-          <input
-            type="text"
-            placeholder="Second"
-            className="input input-ghost w-1/2 max-w-xs"
-          />
+          <p>
+            {time} <span className="text-gray-500">Second</span>
+          </p>
         </div>
-        <div className="flex items-center justify-between bg-[#f2f4fa] mt-3 rounded-xl px-3 py-1">
+        <div className="flex items-center justify-between bg-[#f2f4fa] mt-3 rounded-xl px-3 py-3">
           <p className="text-lg font-bold">Break Time </p>
-          <input
-            type="text"
-            placeholder="Second"
-            className="input input-ghost w-1/2 max-w-xs"
-          />
+          <p>
+            {totalBreakTime} <span className="text-gray-500">Second</span>
+          </p>
         </div>
       </div>
       <div className="my-9">
-        <button className="btn lg:btn-wide btn-secondary bg-[#5d5fef]">
+        <button
+          className="btn lg:btn-wide btn-secondary bg-[#5d5fef]"
+        >
           Activity Compleate
         </button>
       </div>
