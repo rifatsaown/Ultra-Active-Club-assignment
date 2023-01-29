@@ -13,7 +13,7 @@ const Card = ({ product }) => {
           <p>{about}?</p>
           <p className="font-bold pt-3"> Time Requre : {time}s</p>
           <div className="card-actions justify-center">
-            <button className="btn lg:btn-wide btn-secondary bg-[#5d5fef]">Buy Now</button>
+            <button className="btn lg:btn-wide btn-secondary bg-[#5d5fef]">Add Time</button>
           </div>
         </div>
       </div>
