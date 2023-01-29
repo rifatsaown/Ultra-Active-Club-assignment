@@ -1,19 +1,34 @@
 import React from "react";
 
-const Exercise = ({ time, reset}) => {
+const Exercise = ({ time}) => {
+  const getFromLocalStorage = () => {
+    const breakTime = localStorage.getItem("breakTime");
+    if(breakTime) return breakTime;
+    return 0;
+  }
+  const [totalBreakTime, setTotalBreakTime] = React.useState(getFromLocalStorage());
 
-  const [totalBreakTime, setTotalBreakTime] = React.useState(0);
+  const addToLocalStorage = (time) => {
+    localStorage.setItem("breakTime", time);
+  }
+  
+
+  
   const break1 = () => {
     setTotalBreakTime(10);
+    addToLocalStorage(10);
   };
   const break2 = () => {
     setTotalBreakTime(20);
+    addToLocalStorage(20);
   };
   const break3 = () => {
     setTotalBreakTime(30);
+    addToLocalStorage(30);
   };
   const break4 = () => {
     setTotalBreakTime(40);
+    addToLocalStorage(40);
   };
 
 
